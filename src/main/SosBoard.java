@@ -148,7 +148,7 @@ public class SosBoard extends JPanel {
         // Draws S's and O's
         for (int r = 0; r < sos.getLength(); r++) {
             for (int c = 0; c < sos.getLength(); c++) {
-                int y = (int) ((c + 0.69) * squareLength);
+                int y = (int) ((c + 0.7) * squareLength);
                 if (sos.getCell(r, c) == Sos.S) {
                     int x = (int) ((r + 0.35) * squareLength);
                     g.drawString("S", x, y);
